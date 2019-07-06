@@ -58,3 +58,6 @@
           (lambda () (add-to-list 'before-save-hook 'delete-trailing-whitespace)))
 
 (global-set-key (kbd "C-x C-m") 'magit-status)
+
+(set-variable 'js-indent-level 2)
+(set-variable 'typescript-indent-level 2)
