@@ -61,3 +61,5 @@
 
 (set-variable 'js-indent-level 2)
 (set-variable 'typescript-indent-level 2)
+
+(set-variable 'kill-do-not-save-duplicates t)
