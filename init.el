@@ -56,6 +56,8 @@
 (add-hook 'python-mode-hook 'hs-minor-mode)
 (add-hook 'python-mode-hook
           (lambda () (add-to-list 'before-save-hook 'delete-trailing-whitespace)))
+(add-hook 'js-mode-hook
+          (lambda () (add-to-list 'before-save-hook 'delete-trailing-whitespace)))
 
 (global-set-key (kbd "C-x C-m") 'magit-status)
 
