@@ -65,3 +65,9 @@
 (set-variable 'typescript-indent-level 2)
 
 (set-variable 'kill-do-not-save-duplicates t)
+
+(global-set-key (kbd "C-x C-r") 'rgrep)
+
+; Open TSX (typescript with JSX) using jsx-mode, since there isn't a
+; special typescript mode for it.
+(add-to-list 'auto-mode-alist '("\\.tsx\\'" . js-jsx-mode))
